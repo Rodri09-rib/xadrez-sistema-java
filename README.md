@@ -13,7 +13,7 @@
 ## Sobre
 
 O Xadrez é um jogo de xadrez em **100% Java puro**, com interface de console, sem
-frameworks e sem dependências externas. O objetivo não é o produto final: é construir o
+frameworks e sem dependências externas. O objetivo é construir o
 jogo **de baixo para cima**, começando pelo que é genérico (um tabuleiro, uma posição,
 uma peça) e só depois pelo que é específico do xadrez (as casas, as cores, as regras).
 
