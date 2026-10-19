@@ -203,7 +203,7 @@ commits e o trabalho continua:
 
 ## Autor
 
-**Rodrigo Ribeiro Ferreira** — [LinkedIn](https://www.linkedin.com/in/rodrigo-ribeiro-abbb713aa?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
+**Rodrigo Ribeiro Ferreira**  [LinkedIn](https://www.linkedin.com/in/rodrigo-ribeiro-abbb713aa?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
 
 ## Licença
 
