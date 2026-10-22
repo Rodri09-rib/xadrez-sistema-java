@@ -23,7 +23,7 @@ public class Program {
 
 
                 UI.clearScreen();
-                UI.printMatch(chessMatch,captured);
+                UI.printMatch(chessMatch, captured);
                 System.out.println();
                 System.out.print("Source: ");
                 ChessPosition source = UI.readChessPosition(sc);
@@ -35,10 +35,10 @@ public class Program {
                 System.out.print("Target: ");
                 ChessPosition target = UI.readChessPosition(sc);
 
-                ChessPiece caputerdPiece = chessMatch.performChessMove(source, target);
+                ChessPiece caputerdPieces = chessMatch.performChessMove(source, target);
 
-                if(caputerdPiece != null) {
-                    captured.add(caputerdPiece);
+                if(caputerdPieces != null) {
+                    captured.add(caputerdPieces);
                 }
 
             }
