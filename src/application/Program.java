@@ -40,15 +40,21 @@ public class Program {
                     captured.add(caputerdPieces);
                 }
 
+                if (chessMatch.getPromoted() != null) {
+                    System.out.print("Enter piece for promotion (B/N/R/Q): ");
+                    String type = sc.nextLine();
+                    chessMatch.replacePromotedPiece(type);
+                }
+
             }
              catch (ChessException e) {
                 System.out.print(e.getMessage());
                 sc.nextLine();
              }
-            catch (InputMismatchException e) {
+             catch (InputMismatchException e) {
                 System.out.print(e.getMessage());
                 sc.nextLine();
-            }
+             }
         }
         UI.clearScreen();
         UI.printMatch(chessMatch, captured);
